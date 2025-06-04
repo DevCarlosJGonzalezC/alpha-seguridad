@@ -1,0 +1,32 @@
+.banner-principal{
+    width: 100%;
+    height: 60vh;
+    /* border: 2px solid green; */
+}
+
+.banner-imagen{
+    width: 100%;
+    height: 60vh;
+    filter: brightness(50%);
+}
+
+
+.btn-banner{
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgba(33, 133, 63, 0.757);
+    font-weight: 600;
+    font-size: 26px;
+    border-radius: .6rem;
+    box-shadow: 5px 5px 5px black;    
+    transition: all .3s ease-in-out;
+}
+
+.btn-banner:hover{
+    color: yellowgreen;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(33, 133, 63, 0.757);    
+}
