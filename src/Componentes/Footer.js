@@ -34,28 +34,28 @@ function Footer(){
                 <p className="footer-parrafo"><a href="#" className="footer-link">
                     <img 
                     className="footer-red"
-                    src={require(`../icons/facebook.png`)}
+                    src={require(`../icons/facebook-rb.png`)}
                     alt="Facebook"
                     />
                     </a></p>
                 <p className="footer-parrafo"><a href="#" className="footer-link">
                     <img 
                     className="footer-red" 
-                    src={require(`../icons/whatsapp.png`)}
+                    src={require(`../icons/whatsapp-rb.png`)}
                     alt="Whatsapp"
                     />
                     </a></p>
                 <p className="footer-parrafo"><a href="#" className="footer-link">
                     <img 
                     className="footer-red" 
-                    src={require(`../icons/youtube.png`)}
+                    src={require(`../icons/youtube-rb.png`)}
                     alt="Youtube"
                     />
                     </a></p>
                 <p className="footer-parrafo"><a href="#" className="footer-link">
                     <img 
                     className="footer-red" 
-                    src={require(`../icons/gorjeo.png`)}
+                    src={require(`../icons/gorjeo-rb.png`)}
                     alt="X"
                     />
                     </a></p>

@@ -1,12 +1,37 @@
+:root {
+  /* Colores base de la marca */
+  --color-primario: #21853F;         /* Verde institucional */
+  --color-secundario: #f2a007;       /* Naranja del logo */
+  --color-fondo: #ffffff;
+  --color-texto: #111111;
+  --color-texto-invertido: #ffffff;
+
+  /* Tonos de apoyo */
+  --color-primario-transparente: rgba(33, 133, 63, 0.757);
+  --color-fondo-claro: #f5f5f5;
+  --color-borde-suave: #dddddd;
+
+  /* Estados */
+  --color-hover: #1c7035;
+  --color-activo: #145226;
+  --color-error: #e63946;
+  --color-éxito: #28a745;
+
+  /* Tipografía */
+  --fuente-principal: 'Roboto', sans-serif;
+}
+
 *,
 *::before,
-*::after{
+*::after {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
 }
 
-.App{
+.App {
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
   /* border: 2px solid red; */
 }

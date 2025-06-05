@@ -5,8 +5,7 @@
     justify-content: space-evenly;
     align-items: center;
     background-color: #333;
-    color: white;
-    /* border:1px solid red; */
+    color: var(--color-texto-invertido);
 }
 
 .footer-logo{
@@ -15,27 +14,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border:1px solid blue; */    
 }
 
 .footer-subtitulo{
     font-size: 20px;
-    color: rgba(33, 133, 63, 0.757);
-    color: white;
+    color: var(--color-secundario);
 }
 
 .footer-servicios{
     width:24% ;
     height: inherit;
     padding: 15px 10px;
-    /* border:1px solid green;     */
 }
 
 .footer-contacto{
     width:24% ;
     padding: 15px 10px;
     height: inherit;
-    /* border:1px solid orangered; */
     
 }
 
@@ -47,13 +42,11 @@
     width:24%;
     padding: 15px 10px;
     height: inherit;
-    /* border:1px solid pink; */
 }
 
 .footer-parrafo{
     margin: 15px 5px;
-    font-size: 14px;
-    
+    font-size: 14px;    
 }
 
 .footer-red{
@@ -66,6 +59,5 @@ transition: all .3s ease-in-out;
 }
 
 .footer-link:hover{
-    box-shadow: 5px 5px 5px rgba(33, 133, 63, 0.757);
-    box-shadow: 5px 5px 5px black;
+    filter: drop-shadow(5px 5px 5px var(--color-secundario));
 }

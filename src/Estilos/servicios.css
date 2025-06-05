@@ -17,7 +17,7 @@
     width: 20%;
     height: 250px;
     text-align: center;
-    border: 2px solid rgba(33, 133, 63, 0.757);
+    border: 2px solid var(--color-primario);
     transition: all .3s ease-in-out;
     cursor: pointer;
 }
@@ -26,8 +26,8 @@
     transform: scale(1.1);
     border-radius: 20%;
     background-color: rgba(33, 133, 63, 0.757);
-    color: white;
-    border: 2px solid black;
+    color: var(--color-texto-invertido);
+    border: 2px solid var(--color-secundario);
 }
 
 .servicios-texto{
@@ -40,7 +40,7 @@
     margin: 35px 10px;
     font-size: 45px;
     font-weight: bold;
-    text-shadow: 3px 3px 3px black;
+    text-shadow: 3px 3px 3px var(--color-texto);
 }
 
 .contenedor-card{
@@ -58,14 +58,14 @@
     padding: 3px;
     border-radius: 40%;
     margin: 0 auto;
-    border: 3px solid rgba(33, 133, 63, 0.757);
+    border: 3px solid var(--color-primario);
     filter: brightness(40%);
     transition: all .3s ease-in-out;
 }
 
 .servicios-imagen:hover{
     filter: brightness(100%);
-    border: 2px solid black;
+    border: 2px solid var(--color-secundario);
 }
 
 .servicios-profesion{

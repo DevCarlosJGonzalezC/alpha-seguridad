@@ -16,7 +16,7 @@
     top: 500px;
     left: 100px;
     padding: 10px 20px;
-    color: white;
+    color: var(--color-texto-invertido);
     background-color: rgba(33, 133, 63, 0.757);
     font-weight: 600;
     font-size: 26px;
@@ -26,7 +26,8 @@
 }
 
 .btn-banner:hover{
-    color: yellowgreen;
+    color: var(--color-secundario);
     background-color: white;
-    box-shadow: 5px 5px 5px rgba(33, 133, 63, 0.757);    
+    box-shadow: 5px 5px 5px var(--color-secundario);
+    border: 2px solid var(--color-primario);    
 }
