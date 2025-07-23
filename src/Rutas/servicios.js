@@ -1,11 +1,11 @@
 import React from "react";
 
-function Servicios(){
-    return (
-        <div>
-            console.log("Hola");
-        </div>
-    )
+function About() {
+  return (
+    <div>
+      <h1>Acerca de</h1>
+    </div>
+  );
 }
 
-export default Servicios;
+export default About;
